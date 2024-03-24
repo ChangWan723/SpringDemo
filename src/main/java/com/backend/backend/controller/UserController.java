@@ -14,7 +14,7 @@ public class UserController {
     @Autowired
     private UserService userService;
 
-    @PostMapping("/add")
+    @PostMapping("/signup")
     public String addUser(@RequestBody User user) {
         System.out.println(user);
         userService.saveUser(user);
