@@ -49,5 +49,5 @@ jobs:
         with:
           app-name: 'soton'
           slot-name: 'Production'
-          package: '*.war'
+          package: '*.jar'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_7BE55AD0EB684CDFB75440E66440B6BF }}
