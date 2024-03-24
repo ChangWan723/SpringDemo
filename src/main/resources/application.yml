@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: jdbc:sqlserver://sotondbserver.database.windows.net:1433;database=SpringDB;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;
+    username: chang
+    password: wan123456...
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    database-platform: org.hibernate.dialect.SQLServerDialect
+
+server:
+  port: 9090
