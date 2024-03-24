@@ -21,7 +21,7 @@ public class UserController {
         return "New user has been created.";
     }
 
-    @GetMapping("findAll")
+    @GetMapping("getAll")
     public List<User> findAllUser() {
         return userService.findAllUser();
     }
