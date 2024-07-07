@@ -2,7 +2,7 @@ spring:
   datasource:
     url: jdbc:sqlserver://mysql-for-book.database.windows.net:1433;database=mysql-for-book;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;
     username: chang
-    password: wan123456...
+    password: xxxxxxx
   jpa:
     hibernate:
       ddl-auto: update
