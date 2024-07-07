@@ -1,13 +1,13 @@
-package com.backend.backend;
+package com.soton.demo;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class BackendApplicationTests {
+class DemoApplicationTests {
 
 	@Test
-	void contextLoads() {
+	void test() {
 	}
 
 }

@@ -1,4 +1,4 @@
-package com.backend.backend.model;
+package com.soton.demo.model;
 
 
 import jakarta.persistence.Entity;
@@ -19,11 +19,10 @@ public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
-    private String firstName;
-    private String lastName;
+    private String name;
     private String email;
     private String gender;
-    private String postcode;
-    private String birthday;
-    private String password;
+    private String userType;
+    private String bio;
+    private String displayName;
 }

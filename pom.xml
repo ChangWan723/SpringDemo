@@ -8,10 +8,10 @@
 		<version>3.2.3</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.backend</groupId>
-	<artifactId>backend</artifactId>
+	<groupId>com.soton</groupId>
+	<artifactId>SpringDemo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>backend</name>
+	<name>sotonBook</name>
 	<description>Project for Spring Boot</description>
 	<properties>
 		<java.version>17</java.version>

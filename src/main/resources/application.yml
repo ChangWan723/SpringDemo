@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:sqlserver://sotondbserver.database.windows.net:1433;database=SpringDB;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;
+    url: jdbc:sqlserver://mysql-for-book.database.windows.net:1433;database=mysql-for-book;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;
     username: chang
     password: wan123456...
   jpa:

@@ -1,7 +1,7 @@
-package com.backend.backend.service;
+package com.soton.demo.service;
 
-import com.backend.backend.model.User;
-import com.backend.backend.repository.UserRepo;
+import com.soton.demo.model.User;
+import com.soton.demo.repository.UserRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

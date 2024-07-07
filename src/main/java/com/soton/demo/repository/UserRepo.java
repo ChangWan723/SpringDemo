@@ -1,6 +1,6 @@
-package com.backend.backend.repository;
+package com.soton.demo.repository;
 
-import com.backend.backend.model.User;
+import com.soton.demo.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

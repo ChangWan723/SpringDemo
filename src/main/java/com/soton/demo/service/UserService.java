@@ -1,6 +1,6 @@
-package com.backend.backend.service;
+package com.soton.demo.service;
 
-import com.backend.backend.model.User;
+import com.soton.demo.model.User;
 
 import java.util.List;
 
