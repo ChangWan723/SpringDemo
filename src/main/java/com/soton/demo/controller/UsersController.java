@@ -2,7 +2,7 @@ package com.soton.demo.controller;
 
 import com.soton.demo.model.User;
 import com.soton.demo.service.UserService;
-import org.springframework.beans.factory.annotation.Autowired;
+import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -12,9 +12,9 @@ import java.util.List;
 @RestController
 @RequestMapping("/users")
 @CrossOrigin
+@RequiredArgsConstructor
 public class UsersController {
-    @Autowired
-    private UserService userService;
+    private final UserService userService;
 
     @PostMapping("signup")
     public ResponseEntity<ApiResponse> addUser(@RequestBody User user) {
